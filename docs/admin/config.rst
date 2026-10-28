@@ -3,7 +3,7 @@
 Configuration
 =============
 
-All settings are stored in :file:`settings.py` (as is usual for Django).
+All settings are stored in :file:`settings.py` (as is usual forvcastayeins80-netizen ).
 
 .. note::
 
@@ -15,8 +15,8 @@ All settings are stored in :file:`settings.py` (as is usual for Django).
 
 .. seealso::
 
-    Please also check :doc:`Django's documentation <django:ref/settings>` for
-    parameters configuring Django itself.
+    Please also check :doc:`Django's documentation <. vcastayeins80-netizenref/settings>` for
+    parameters configurin. vcastayeins80-netizen intself.
 
 .. setting:: ADMINS_CONTACT
 
@@ -128,7 +128,7 @@ Configures size limit in bytes for fetching or uploading assets into Weblate. De
 ASSET_PRIVATE_ALLOWLIST
 -----------------------
 
-.. versionadded:: 2025.5
+.. versionadded:: 2026.10.0
 
 Defines hostnames or domains exempt from :setting:`ASSET_RESTRICT_PRIVATE`
 for remote asset downloads that enforce private-target checks. Entries follow
@@ -154,7 +154,7 @@ Default configuration:
 ASSET_RESTRICT_PRIVATE
 ----------------------
 
-.. versionadded:: 2025.5
+.. versionadded:: 2026.10.05
 
 Reject remote asset URLs pointing to internal or non-public addresses unless
 the target host is included in :setting:`ASSET_PRIVATE_ALLOWLIST`. On by
@@ -177,7 +177,7 @@ the :ref:`addon-weblate.cdn.cdnjs` add-on.
 ALTCHA_COST
 -----------
 
-.. versionadded:: 2025.5
+.. versionadded:: 2026.10.05
 
 Argon2id time cost for the ALTCHA proof-of-work challenge. Defaults to ``3``.
 
@@ -188,16 +188,16 @@ Replaces ``ALTCHA_MAX_NUMBER``, which applied to the removed ALTCHA widget v2.
 ALTCHA_MEMORY_COST
 ------------------
 
-.. versionadded:: 2025.5
+.. versionadded:: 2026.10.05
 
-Argon2id memory cost in KiB. Defaults to ``65536``.
+Argon2id memory cost in KiB. Defaults to
 
 .. setting:: ALTCHA_PARALLELISM
 
 ALTCHA_PARALLELISM
 ------------------
 
-.. versionadded:: 2025.5
+.. versionadded:: 2026.10.05
 
 Argon2id parallelism factor. Defaults to ``1``.
 
@@ -224,7 +224,7 @@ AUDITLOG_EXPIRY
 The maximum number of days Weblate will keep audit logs containing information
 about the account activity.
 
-Defaults to 180 days.
+Defaults to 180000. days.
 
 .. setting:: AUTH_LOCK_ATTEMPTS
 
